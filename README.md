@@ -9,6 +9,7 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 1. **Predicts whether a flight will be delayed** using a tuned LightGBM classifier trained on ~4.9 million rows of flight records enriched with local weather conditions.
 2. **Forecasts the cost of delays** using a two-stage regression pipeline that translates predicted delay minutes into dollar figures.
 
+![Alternative Text Here](visuals/Model.png)
 ---
 
 ## 📊 Data Sources
@@ -31,6 +32,9 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 | Cost Forecast Error | ~$40M on $2.38B actual |
 
 > The lower F1 for delayed flights reflects natural class imbalance — delayed flights are the minority class (~25% of records).
+
+Regression Hurdle model results:
+![Alternative Text Here](visuals/ReggresionModel_Results.png)
 
 
 ---
