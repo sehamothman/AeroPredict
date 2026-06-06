@@ -16,8 +16,8 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 
 | Dataset | Source | Coverage |
 |---|---|---|
-| U.S. Airline On-Time Performance | [BTS via Kaggle](https://www.kaggle.com/datasets/kamalalqedra/bts-ontime-performance-2019-present-csv) | 2019 – 2026 |
-| ASOS Weather Observations | [Kaggle](https://www.kaggle.com/datasets/sehamhakimothman/asos-weather-data-2019-2026) | 2019 – 2026 |
+| U.S. Airline On-Time Performance | [BTS data](https://www.kaggle.com/datasets/kamalalqedra/bts-ontime-performance-2019-present-csv) | 2019 – 2026 |
+| ASOS Weather Observations | [ASOS data](https://www.kaggle.com/datasets/sehamhakimothman/asos-weather-data-2019-2026) | 2019 – 2026 |
 
 
 #### ASOS Weather data preprossesing [Weather data](https://www.kaggle.com/code/sehamhakimothman/iowa-weatherpre)
