@@ -22,10 +22,10 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 ---
 
 ## How the data sources are merged?
-# 1.Filtered for Commercial Airports Only
+#### 1.Filtered for Commercial Airports Only
 - kept weather data from only 10 major commercial airports in Illinois and deleted the data from the other 50 tiny rural fields.
 - Why: Commercial airplanes (like the ones in airline dataset) only fly between large airports; they cannot land on tiny hobby farm strips. Dropping them shrank the file by 90%.
-# 2.Do a Double merging to the shared 10 commercial Airports
+#### 2.Do a Double merging to the shared 10 commercial Airports
 - meaning each weather feature will be 2 one for Origin Airport and the second one for the Dest Airport
 
 
