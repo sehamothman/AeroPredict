@@ -20,9 +20,9 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 | ASOS Weather Observations | [ASOS data](https://www.kaggle.com/datasets/sehamhakimothman/asos-weather-data-2019-2026) | 2019 – 2026 |
 
 
-#### ASOS Weather data preprossesing [Weather data](https://www.kaggle.com/code/sehamhakimothman/iowa-weatherpre)
-#### U.S. Airline data preprossesing [Airline data](https://www.kaggle.com/code/sehamhakimothman/areo-21may)
-#### Merging, model training and testing [Models](https://www.kaggle.com/code/sehamhakimothman/areomodels)
+#### ASOS Weather data preprossesing Kaggle Notebook [Weather data](https://www.kaggle.com/code/sehamhakimothman/iowa-weatherpre)
+#### U.S. Airline data preprossesing  Kaggle Notebook [Airline data](https://www.kaggle.com/code/sehamhakimothman/areo-21may)
+#### Merging, model training and testing Kaggle Notebook [Models](https://www.kaggle.com/code/sehamhakimothman/areomodels)
 
 
 ---
