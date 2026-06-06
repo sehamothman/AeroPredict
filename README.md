@@ -117,9 +117,11 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 
 ## 📈 Model Performance
 
+## Two versions of the models created : Regular LightGBM model,Tuned LightGBM. Both give the same accuracy.
+
 | Metric | Value |
 |---|---|
-| ROC-AUC | 0.7128 |
+| ROC-AUC | 0.7128 of 0.25 Threshold & 0.76 of .50 Threshold |
 | Overall Accuracy | 71% |
 | On-Time F1-Score | 0.80 |
 | Delayed F1-Score | 0.47 |
