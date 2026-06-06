@@ -21,6 +21,93 @@ A machine learning pipeline that predicts U.S. flight delays and estimates their
 
 ---
 
+## How the data sources are merged?
+**1.Filtered for Commercial Airports Only**
+- kept weather data from only 10 major commercial airports in Illinois and deleted the data from the other 50 tiny rural fields.
+- Why: Commercial airplanes (like the ones in airline dataset) only fly between large airports; they cannot land on tiny hobby farm strips. Dropping them shrank the file by 90%.
+**2.Do a Double merging to the shared 10 commercial Airports**
+meaning each weather feature will be 2 one for Origin Airport and the second one for the Dest Airport
+
+---
+
+## 🔍 Features
+
+### Classification
+
+# BTS_Airline data
+- Quarter
+- Month
+- Day of Month
+- Day of Week
+- Flight Date
+- Reporting Airline
+- Origin
+- Destination
+- CRS Dep time
+- Dep-Delay
+- CRS Arrival time
+- Arr-delay
+- CRS Elapsed Time
+- Flights (number of daily flights): COUNT
+
+# IOWA_ Weather data
+- tmpf_origin
+- sknt_origin
+- p01i_origin
+- vsby_origin
+- skyc1_origin
+- skyl1_origin
+- tmpf_dest
+- sknt_dest
+- p01i_dest
+- vsby_dest
+- skyc1_dest
+- skyl1_dest
+
+### Regression
+
+
+# BTS_Airline data
+- Quarter
+- Month
+- Day of Month
+- Day of Week
+- Flight Date
+- Reporting Airline
+- Origin
+- Destination
+- CRS Dep time
+- Dep-Delay
+- CRS Arrival time
+- Arr-delay
+- CRS Elapsed Time
+- Flights (number of daily flights): COUNT
+- Distance
+- CRS Elapsed time
+- Carrier delay
+- Weather delay
+- NAS delay
+- Late aircraft delay
+
+
+# IOWA_ Weather data
+- tmpf_origin
+- sknt_origin
+- p01i_origin
+- vsby_origin
+- skyc1_origin
+- skyl1_origin
+- tmpf_dest
+- sknt_dest
+- p01i_dest
+- vsby_dest
+- skyc1_dest
+- skyl1_dest
+
+
+
+---
+
 ## 📈 Model Performance
 
 | Metric | Value |
